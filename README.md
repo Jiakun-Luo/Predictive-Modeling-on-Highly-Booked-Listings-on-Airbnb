@@ -58,7 +58,7 @@ For the logistic model: the accuracy of a validation set is 0.7929503 with an op
 For the random forest model: the accuracy of a validation set is 0.8380622. 
 For the XGBoost: the accuracy of a validation set is 0.8501 with the best cutoff 0.503.
 
-### Hyperparameters Tunning:
+##### Hyperparameters Tunning:
 
 ❖ Logistic Regression : Use of library “ROCR” to find the optimal cutoff.
 ❖ Random Forest : Use of “tuneRF” method in “randomForest” library that calculates the optimal value of “mtry” variable (number of variables randomly sampled at each split)
